@@ -1,22 +1,59 @@
-/* Base Styles */
+/***** Base Styles *****/
 
 * {
 	box-sizing: border-box;
 	font-family: Helvetica;
 }
+body {
+	background-color: rgb(241, 184, 163);
+}
+
+/***** Header *****/
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #000000;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #ff7f50;
+  color: #000000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+#nav-list {
+  color: white;
+}
+hr {
+  border-color: white;
+}
+.item {
+  color: white;
+  font-size: 1.7em;
+}
+
+
+/***** Content *****/
 
 h1 {
 	font-size: 28px;
     	font-family: "Century Gothic";
-	
 }
-
-body {
-	background-color: rgb(241, 184, 163);
-  	
-
-}
-
 p {
 	padding: 10px;
 	margin: 0;
@@ -33,7 +70,7 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #9e9e9e;
+	rgba(163, 154, 154, 0.774)
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -101,44 +138,4 @@ section {
   margin-top: 10px;
 }
 
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #000000;
-}
 
-#header-nav {
-  border: 0;
-  background-color: #ff7f50;
-  color: #000000;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-
-.nav-header {
-  background-color: #FFFFFF;
-}
-
-.nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
-}
-
-#nav-list {
-  color: white;
-}
-
-hr {
-  border-color: white;
-}
-
-.item {
-  color: white;
-  font-size: 1.7em;
-}
